@@ -8,9 +8,9 @@ export const App = () => {
 
         <a className={css.title} target="_blank" href="https://www.htmlcssbuttongenerator.com/">
           <div className={css.title__text}>
-            CSS tools
+            <span className={css.css_tools}>CSS tools</span>
             <br />
-            Жми сюда!
+            <span className={css.click}>Жми сюда!</span>
           </div>
         </a>
 

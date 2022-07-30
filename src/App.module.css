@@ -6,6 +6,7 @@
 
     text-decoration: none;
 
+    /* border: linear-gradient(to right, #029ddf, #68efaf, #ff01d9, #6702ff, #029ddf); */
     border-radius: 15px;
 
     background: -webkit-gradient(linear, left top, right top, from(#029ddf), color-stop(#68efaf), color-stop(#ff01d9), color-stop(#6702ff), to(#029ddf));
@@ -44,6 +45,21 @@
     font-size: 40px;
 
     color: white;
+}
+
+.css_tools {
+    background: url(./assets/5.gif);
+    font-weight: bold;
+    text-shadow: rgb(0 0 0 / 0%) 1px 1px 3px;
+}
+
+.click {
+    background: url(./assets/1.gif);
+    background-size: cover;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 11%);
 }
 
 .adds {
